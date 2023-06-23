@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    font-family: 'PT Serif', serif;
+    /* font-family: 'Dancing Script', cursive; */
+}
+.bannerBgImg{
+height: 100vh;
+background-image: url("https://drive.google.com/uc?id=1gtr6y1CejsO_fkjBXeN7s1WsCQazR8ss");
+background-size: cover;
+position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid rgb(53, 219, 234)
+}
+
+.bIcon{
+    width: 200%;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.img-fluid:hover{
+
+    border: 2px solid rgb(53, 219, 234);
+}
+
